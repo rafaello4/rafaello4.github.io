@@ -1,0 +1,323 @@
+<!DOCTYPE HTML>
+<!--[if IE 8]> <html class="ie8 no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<!-- begin meta -->
+	<meta charset="utf-8">
+	<meta name="description" content="Rafaello4 es una web de direcciones útiles .Hay direcciones  a buscadores especificos, ebooks, software,imágenes, TV. online, imágenes sin copyright,diseño web ,tutoriales y muchas utilidades mas. ">
+	<meta name="keywords" content="Rafaello4, responsive, utilidades, software,buscadores,descargas,diseño, HTML5, CSS3, clean design">
+	<meta name="author" content="Ixtendo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- end meta -->
+	
+	<!-- begin CSS -->
+	<link href="style.css" type="text/css" rel="stylesheet" id="main-style">
+	<!--[if IE]> <link href="css/ie.css" type="text/css" rel="stylesheet"> <![endif]-->
+	<link href="css/colors/orange.css" type="text/css" rel="stylesheet" id="color-style">
+    <!-- end CSS -->
+	
+	<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon">
+	
+	<!-- begin JS -->
+    <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script> <!-- jQuery -->
+    <script src="js/ie.js" type="text/javascript"></script> <!-- IE detection -->
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script> <!-- jQuery easing -->
+	<script src="js/modernizr.custom.js" type="text/javascript"></script> <!-- Modernizr -->
+    <!--[if IE 8]><script src="js/respond.min.js" type="text/javascript"></script><![endif]--> <!-- Respond -->
+	<script src="js/jquery.polyglot.language.switcher.js" type="text/javascript"></script> <!-- language switcher -->
+    <script src="js/ddlevelsmenu.js" type="text/javascript"></script> <!-- drop-down menu -->
+    <script type="text/javascript"> <!-- drop-down menu -->
+        ddlevelsmenu.setup("nav", "topbar");
+    </script>
+    <script src="js/tinynav.min.js" type="text/javascript"></script> <!-- tiny nav -->
+    <script src="js/jquery.ui.totop.min.js" type="text/javascript"></script> <!-- scroll to top -->
+    <script src="js/jquery-ui-1.8.21.custom.min.js" type="text/javascript"></script> <!-- tabs, toggles, accordion -->
+	<script src="js/jquery.tweet.js" type="text/javascript"></script> <!-- Twitter widget -->
+	<script src="js/jquery.touchSwipe.min.js" type="text/javascript"></script> <!-- touchSwipe -->
+    <script src="js/custom.js" type="text/javascript"></script> <!-- jQuery initialization -->
+    <!-- end JS -->
+	
+	<title>Rafaello4 - Grid Columns</title>
+</head>
+
+<body>
+<!-- begin container -->
+<div id="wrap">
+    <!-- begin header -->
+        <header id="header" class="container">
+            <!-- begin header top -->
+            <section id="header-top" class="clearfix">
+                <!-- begin header left -->
+                <div class="one-half">
+                    <h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Rafaello4"></a></h1>
+                    <p id="tagline">Responsive Business Theme</p>
+                </div>
+                <!-- end header left -->
+                
+                <!-- begin header right -->
+                <div class="one-half column-last">
+                    <!-- begin language switcher -->
+                  <div id="polyglotLanguageSwitcher"> 
+                   
+                       <form action="#">
+                            <select id="polyglot-language-options">
+                              <option value="es" selected id="es">Espa&ntilde;ol</option>
+                              <!--<option id="en" value="en">English</option>
+                                <option id="fr" value="fr">Fran&ccedil;ais</option>
+                                <option id="de" value="de">Deutsch</option>
+                                <option id="it" value="it">Italiano</option> -->
+                              
+                            </select>
+                        </form> 
+                    </div>
+                    <!-- end language switcher -->
+                   <!-- begin contact info -->
+                    <div class="contact-info">
+                        <p class="phone"></p>
+                        <p class="email"><a href="contact.html">info@Rafaello4.com</a></p>
+                    </div>
+                    <!-- end contact info -->
+                </div>
+                <!-- end header right -->
+            </section>
+            <!-- end header top -->
+            
+           <!-- begin navigation bar -->
+        <section id="navbar" class="clearfix">
+            <!-- begin navigation -->
+            <nav id="nav">
+                <ul id="navlist" class="clearfix">
+                
+                   <li class="current"><a href="index.html" rel="submenu1">Home</a> 
+                        
+                    </li>
+                     <!--  fin menu 1  -->
+                    
+                   <!-- begin menu 2 -->
+                    <li><a href="oficiales.html" rel="submenu2">Links Oficiales</a>
+                    
+                        
+                   </li>
+                 <!--  fin menu 2  -->
+                    
+                      <!-- begin menu 3 -->
+                    <li><a href="links-utiles.html" rel="submenu3">Links Útiles</a>
+                                        
+                                               </li>
+                 
+                 <!--  fin menu 3  -->
+                  <!--  begin menu 4  -->   
+                    
+                   <li><a href="software.html" rel="submenu4">Software</a>
+                       
+                    </li>
+                    <!--  end menu 4  --> 
+                    <!--  begin menu 5  -->  
+                    
+                  <li><a href="tiendas.html" rel="submenu5">Tiendas</a>
+                                                   
+                            
+                       
+                    </li> 
+                    <!--  end menu 5  --> 
+                   
+                 <!-- <li><a href="deportes.html" rel="submenu5">Blog</a>
+                        
+                    </li> -->
+                    
+                   <!-- fin menu 5  -->
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- end navigation -->
+            
+            <!-- begin search form -->
+           <form id="search-form" action="search.php" method="get">
+                <input id="s" type="text" name="s" placeholder="Search &hellip;" style="display: none;">
+                <input id="search-submit" type="submit" name="search-submit" value="Search">
+            </form> 
+            <!-- end search form -->
+        </section>
+        <!-- end navigation bar -->
+            
+        </header>
+        <!-- end header -->
+        
+    <!-- begin content -->
+        <section id="content" class="container clearfix">
+        	<!-- begin page header -->
+            <header id="page-header">
+            	<h1 id="page-title">Grid Columns</h1>	
+            </header>
+            <!-- end page header -->
+        		
+			<!-- begin main content -->
+          
+            <hr>
+            
+            <div class="one-third">
+            	<h2>1/3 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo. Suspendisse placerat imperdiet justo, nec viverra libero tincidunt sed.</p>
+            </div>
+            <div class="one-third">
+            	<h2>1/3 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo. Suspendisse placerat imperdiet justo, nec viverra libero tincidunt sed.</p>
+            </div>
+            <div class="one-third column-last">
+            	<h2>1/3 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo. Suspendisse placerat imperdiet justo, nec viverra libero tincidunt sed.</p>
+            </div>
+            
+            <div class="clear"></div>
+            <hr>
+            
+            <div class="one-fourth">
+            	<h2>1/4 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo.</p>
+            </div>
+            <div class="one-fourth">
+            	<h2>1/4 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo.</p>
+            </div>
+            <div class="one-fourth">
+            	<h2>1/4 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo.</p>
+            </div>
+            <div class="one-fourth column-last">
+            	<h2>1/4 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo.</p>
+            </div>
+            
+            <div class="clear"></div>
+            <hr>
+            
+            <div class="one-third">
+            	<h2>1/3 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo. Suspendisse placerat imperdiet justo, nec viverra libero tincidunt sed.</p>
+            </div>
+            <div class="two-thirds column-last">
+            	<h2>2/3 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo. Suspendisse placerat imperdiet justo, nec viverra libero tincidunt sed. Proin accumsan elit viverra nulla accumsan euismod. Phasellus bibendum libero sit amet erat mollis consequat. Suspendisse potenti. Donec felis nibh, luctus eget pretium at, accumsan eu ante. Curabitur sapien felis.</p>
+            </div>
+            
+            <div class="clear"></div>
+            <hr>
+            
+            <div class="two-thirds">
+            	<h2>2/3 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo. Suspendisse placerat imperdiet justo, nec viverra libero tincidunt sed. Proin accumsan elit viverra nulla accumsan euismod. Phasellus bibendum libero sit amet erat mollis consequat. Suspendisse potenti. Donec felis nibh, luctus eget pretium at, accumsan eu ante. Curabitur sapien felis.</p>
+            </div>
+            <div class="one-third column-last">
+            	<h2>1/3 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo. Suspendisse placerat imperdiet justo, nec viverra libero tincidunt sed.</p>
+            </div>
+            
+            <div class="clear"></div>
+            <hr>
+            
+            <div class="one-fourth">
+            	<h2>1/4 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo.</p>
+            </div>
+            <div class="three-fourths column-last">
+            	<h2>3/4 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo. Suspendisse placerat imperdiet justo, nec viverra libero tincidunt sed. Proin accumsan elit viverra nulla accumsan euismod. Phasellus bibendum libero sit amet erat mollis consequat. Suspendisse potenti. Donec felis nibh, luctus eget pretium at, accumsan eu ante. Curabitur sapien felis, facilisis pretium scelerisque ut, eleifend vitae quam.</p>
+            </div>
+            
+            <div class="clear"></div>
+            <hr>
+            
+            <div class="three-fourths">
+            	<h2>3/4 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo. Suspendisse placerat imperdiet justo, nec viverra libero tincidunt sed. Proin accumsan elit viverra nulla accumsan euismod. Phasellus bibendum libero sit amet erat mollis consequat. Suspendisse potenti. Donec felis nibh, luctus eget pretium at, accumsan eu ante. Curabitur sapien felis, facilisis pretium scelerisque ut, eleifend vitae quam.</p>
+            </div>
+            <div class="one-fourth column-last">
+            	<h2>1/4 Columns</h2>	
+                <p>Donec aliquam luctus dolor nec volutpat. Donec fringilla varius lorem, vulputate euismod velit ultrices et. Vestibulum a enim ut leo.</p>
+            </div>
+            <!-- end main content -->
+        </section>
+        <!-- end content -->          
+    
+	<!-- begin footer -->
+	<footer id="footer">
+    	<div class="container">
+            <!-- begin footer top -->
+            <div id="footer-top">
+                <div class="one-fourth">
+                	<div class="widget">
+                        <h3>About Us</h3>
+                        <p>Rafaello4 is a responsive business and portfolio theme carefully handcrafted using the latest technologies.</p>
+                        <p>It features a clean design, as well as extended functionality that will come in very handy.</p>
+                    </div>
+                </div>
+                <div class="one-fourth">
+                	<div class="widget latest-posts">
+                        <h3>Latest Posts</h3>
+                        <ul>
+                            <li>
+                                <a href="blog-post.html">How to Make Innovative Ideas Happen</a>
+                                <span>March 10, 2012</span>
+                            </li>
+                            <li> <a href="blog-post.html">Web Development for the iPhone and iPad</a>
+                                <span>March 10, 2012</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="one-fourth">
+                	<div class="widget twitter-widget">
+                    	<h3>Latest Tweets</h3>
+                        <div class="tweet"></div>
+                    </div>
+                </div>
+                <div class="one-fourth column-last">
+                	<div class="widget contact-info">
+                    	<h3>Contact Info</h3>
+                        <p class="address"><strong>Address:</strong> 123 Street, City, Country</p>
+                        <p class="phone"><strong>Phone:</strong> (123) 456-7890</p>
+                        <p class="email"><strong>Email:</strong> <a href="mailto:info@Rafaello4.com">info@Rafaello4.com</a></p>
+                        <div class="social-links">
+                        	<h4>Follow Us</h4>
+                            <ul>
+                            	<li class="twitter"><a href="#" title="Twitter" target="_blank">Twitter</a></li>
+                                <li class="facebook"><a href="#" title="Facebook" target="_blank">Facebook</a></li>
+                                <li class="google"><a href="#" title="Google+" target="_blank">Google+</a></li>
+                                <li class="youtube"><a href="#" title="YouTube" target="_blank">YouTube</a></li>
+                                <li class="skype"><a href="#" title="Skype" target="_blank">Skype</a></li>
+                                <li class="rss"><a href="#" title="RSS" target="_blank">RSS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end footer top -->	
+            
+            <!-- begin footer bottom -->
+            <div id="footer-bottom">
+            	<div class="one-half">
+                	<p>Copyright &copy; 2012 Rafaello4. Created by <a href="http://themeforest.net/user/ixtendo">Ixtendo</a>.</p>
+                </div>
+                
+                <div class="one-half column-last">
+                	<nav id="footer-nav">
+                        <ul>
+                            <li><a href="index.html">Home</a> &middot;</li>
+                            <li><a href="about-us.html">Templates</a> &middot;</li>
+                            <li><a href="elements.html">Features</a> &middot;</li>
+                            <li><a href="portfolio.html">Portfolio</a> &middot;</li>
+                            <li><a href="blog.html">Blog</a> &middot;</li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- end footer bottom -->	
+        </div>
+	</footer>
+	<!-- end footer -->
+</div>
+<!-- end container -->
+
+</body>
+</html>
